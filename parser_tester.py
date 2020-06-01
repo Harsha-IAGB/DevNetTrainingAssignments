@@ -1,5 +1,5 @@
 import unittest
-from any_parser import Parser
+from generic_parser import Parser
 
 class ParserTestMethods(unittest.TestCase):
     def test_json_parser(self):

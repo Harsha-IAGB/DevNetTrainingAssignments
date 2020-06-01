@@ -1,4 +1,4 @@
-from any_parser import Parser
+from generic_parser import Parser
 
 def get_accounts_data():
     accounts = {}

@@ -1,5 +1,5 @@
 # import json
-from any_parser import Parser
+from generic_parser import Parser
 
 def get_dnac_device_data():
     dnac_device_data = Parser("data/dnac_devices.json").get_parsed_data()
