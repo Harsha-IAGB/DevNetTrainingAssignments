@@ -1,7 +1,8 @@
-import json
+# import json
+from any_parser import Parser
 
 def get_dnac_device_data():
-    dnac_device_data = json.load(open("data/dnac_devices.json", 'r'))
+    dnac_device_data = Parser("data/dnac_devices.json").get_parsed_data()
     processed_device_data = []
     for dnac_device in dnac_device_data['response']:
         temp = {}
@@ -12,3 +13,6 @@ def get_dnac_device_data():
         temp['managementIpAddress'] = dnac_device['managementIpAddress']
         processed_device_data.append(temp)
     return processed_device_data
+
+if __name__ == "__main__":
+    print(get_dnac_device_data())
