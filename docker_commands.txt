@@ -1,0 +1,85 @@
+docker build -t image004 .
+docker run -p 4853:80 image004
+-----------------------------------------------------------------------------------------------------
+(devnet_env) PS C:\Users\svarahab\Desktop\Trainings\DevNet\Project\DevNetTrainingAssignments> history
+
+  Id CommandLine
+  -- -----------
+   1 git status
+   2 git status
+   3 git add .
+   4 git commit -m "basic docker functionality"
+   5 git push origin assignment3
+   6 docker --help
+   7 docker build image001 --help
+   8 docker build image001 .
+   9 docker build -t image001 .
+  10 ..\devnet_env\Scripts\activate
+  11 docker build -t image001 .
+  12 docker run -p 80:80 image001
+  13 docker run -p 4853:80 image001
+  14 docker container ls
+  15 docker stop 578f7174a370
+  16 docker rmi 578f7174a370
+  17 docker rmi image001
+  18 cd sc
+  19 cd .\Scripts\
+  20 python.exe .\devices_from_api_tester.py
+  21 python.exe .\dnac_devices_data.py
+  22 docker build -t image001 .
+  23 cd ..
+  24 docker build -t image001 .
+  25 docker run -p 4853:80 image001
+  26 docker build -t image002 .
+  27 docker run -p 4853:80 image002
+  28 docker container ls
+  29 docker stop edbec10c86f5
+  30 docker container ls
+  31 docker run -p 4853:80 image002
+  32 docker container ls
+  33 docker rmi image002
+  34 docker stop 074895453d99
+  35 docker rmi image002
+  36 docker build -t image002 .
+  37 docker run -p 4853:80 image002
+  38 docker build -t image003 .
+  39 docker container ls
+  40 docker stop 35eeb31e2866
+  41 docker run -p 4853:80 image003
+  42 cd sc
+  43 cd .\Scripts\
+  44 python.exe .\dnac_devices_data.py
+  45 python.exe .\dnac_devices_data.py
+  46 python.exe .\dnac_devices_data.py
+  47 docker container ls
+  48 docker stop c743ebaffbda
+  49 docker rmi image002
+  50 docker rmi image003
+  51 docker rmi image003 -f
+  52 docker rmi image002 -f
+  53 docker rmi image001
+  54 docker build -t image004 .
+  55 docker build -t image002 .
+  56 docker build -t image001 .
+  57 docker build -t image005 .
+  58 docker build -t image004 .
+  59 docker container ls
+  60 docker image ls
+  61 cd ..
+  62 docker build -t image002 .
+  63 docker run -p 4853:80 image002
+  64 docker container ls
+  65 docker stop 5104ea6c85ff
+  66 docker run -p 4853:80 image003
+  67 docker build -t image003 .
+  68 docker run -p 4853:80 image003
+  69 docker container ls
+  70 docker stop ad71e2f35847
+  71 docker build -t image003 .
+  72 docker build -t image004 .
+  73 docker build -t image004 .
+  74 docker run -p 4853:80 image004
+  75 docker container ls
+  76 docker stop 6392ad2bbbb8
+  77 git add .
+  78 git add .

@@ -15,11 +15,11 @@ class DevicesAPI():
             'x-auth-token':token
         }
         response = requests.get("https://sandboxdnac2.cisco.com/dna/intent/api/v1/network-device", headers=headers)
-        return json.loads(response.content)
+        return response.json()
 
     def login(self):
         response = requests.post('https://sandboxdnac2.cisco.com/api/system/v1/auth/token', auth=HTTPBasicAuth(self.username, self.password))
-        return json.loads(response.content)['Token']
+        return response.json()['Token']
 
     def get_device_data(self):
         return self.device_data

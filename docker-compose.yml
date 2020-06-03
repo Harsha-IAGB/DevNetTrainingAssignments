@@ -6,7 +6,7 @@ services:
     image: composed_python_cgi:latest # tag the image to be python_cgi:latest
     container_name: python_cgi_container # name the container
     ports:
-      - <host_port>:80 # bind container's port 80 with <host_port>
+      - 4853:80 # bind container's port 80 with <host_port>
     environment:
       EXAMPLE_ENV_VARIABLE: some_value # Example of environment variable available inside container
 
@@ -15,7 +15,7 @@ services:
     volumes:
       - ./:/var/www/html # mount current directory onto /var/www/html
     ports:
-      - <host_post_2>:80
+      - 4853:80
     environment:
       APP_DEBUG: "true"
     
